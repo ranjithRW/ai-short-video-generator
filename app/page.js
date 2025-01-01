@@ -1,10 +1,11 @@
-import { Button } from "@/components/ui/button";
-import Image from "next/image";
-
+import { UserButton } from "@clerk/nextjs";
+import  { Button } from "@/components/ui/button";
 export default function Home() {
   return (
-    <>
-    <Button variant="destructive">Wolf</Button>
-    </>
+    <div className="flex items-center justify-center h-screen gap-4">
+      
+      <Button variant="destructive">Wolf</Button>
+      <UserButton />
+    </div>
   );
 }
