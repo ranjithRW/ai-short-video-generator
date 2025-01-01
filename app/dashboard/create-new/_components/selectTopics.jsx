@@ -26,7 +26,7 @@ function SelectTopics({onUserSelect}) {
             <SelectValue placeholder="Content type" />
           </SelectTrigger>
           <SelectContent>
-            {options.map((item, index) => (
+            {options.map((item,index) => (
               <SelectItem value={item}>{item}</SelectItem>
             ))}
           </SelectContent>
